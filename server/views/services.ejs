@@ -1,0 +1,37 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4" style="text-align: center;"><%= title %></h1>
+      
+    </div>
+  </main>
+
+  <body>
+    <div class="services">
+        <div class="service-card">
+            <i class="fas fa-code"></i>
+            <h2 class="service-title">General Programming</h2>
+            <p class="service-description">Offering a wide range of programming services.</p>
+        </div>
+        <div class="service-card">
+            <i class="fas fa-laptop-code"></i>
+            <h2 class="service-title">Web Development</h2>
+            <p class="service-description">Creating responsive and interactive websites.</p>
+        </div>
+        <div class="service-card">
+            <i class="fas fa-mobile-alt"></i>
+            <h2 class="service-title">Mobile App Development</h2>
+            <p class="service-description">Building mobile applications for iOS and Android.</p>
+        </div>
+    </div>
+
+  </body>
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>

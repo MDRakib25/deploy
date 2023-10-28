@@ -1,0 +1,99 @@
+/* custom css goes here */
+
+/*<!--
+      JavaScript
+
+      Author: MD Rakib
+      ID# 301306055
+      Date:10-08-2023
+   -->
+*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+.about-me {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 80%;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    max-width: 60%;
+}
+
+.photo {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+/* Define the card styles */
+.card {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Style for the project image */
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Style for the project title/link */
+.card h2 {
+    font-size: 15px;
+    margin: 6px 0;
+}
+
+/* Style for the project link */
+.card a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+/* CSS for the container of service cards */
+.services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* CSS for individual service cards */
+.service-card {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* CSS for the Font Awesome icon within each card */
+.service-card i {
+    font-size: 48px;
+    color: #007BFF;
+}
+
+.service-title {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.service-description {
+    font-size: 16px;
+}
